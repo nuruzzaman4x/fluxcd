@@ -2,9 +2,9 @@ apiVersion: v1
 kind: Service
 metadata:
   name: nginx
-  namespace: digicon
+  namespace: gitops
 spec:
-  type: LoadBalanvcer
+  type: LoadBalancer
   selector:
     app: nginx
   ports:
