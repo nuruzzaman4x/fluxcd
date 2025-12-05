@@ -2,5 +2,4 @@ resources:
   - ingress-nginx-helmrelease.yaml
   - ingress-nginx-helmrepo.yaml
   - namespace.yaml
-  - values.yaml
 
